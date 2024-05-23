@@ -62,7 +62,7 @@ systemctl restart network
 HQ-R
 
 configure
-object-group LOCAL_NET
+object-group network LOCAL_NET
 ip address range 192.168.100.1-192.168.100.62
 exit
 object-group PUBLIC_POOL
