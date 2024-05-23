@@ -56,6 +56,7 @@ BR-SRV
 echo 172.16.100.2/26 > /etc/net/ifaces/ens192/ipv4address
 echo via default 172.16.100.1 /etc/net/ifaces/ens192/ipv4route
 echo nameserver 192.168.100.2 /etc/net/ifaces/ens192/resolv.conf
+nano /etc/net/ifaces/ens/
 systemctl restart network
 1.2
 HQ-R
