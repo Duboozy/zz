@@ -100,6 +100,8 @@ ip address 2.2.2.2
 exit
 nat source
 pool TRANSLATE_ADDRESS
+ip address 2.2.2.2
+exit
 ruleset SNAT
 to interface gigabitethernet 1/0/1
 rule 1
